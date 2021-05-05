@@ -1,0 +1,47 @@
+.gift-area.open {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 10;
+    margin-top: 177px;
+}
+
+.gift-area {
+    display: none;
+}
+
+.gift-head {
+    position: relative;
+    height: 10px;
+    width: 86px;
+    background-color: var(--bg-gift);
+    border: solid 1px #000;
+    box-shadow: 1px 1px 5px #000;
+}
+
+.gift-body {
+    position: relative;
+    height: 60px;
+    width: 80px;
+    background-color: var(--bg-gift);
+    border: solid 1px #000;
+    border-top: none;
+    box-shadow: 1px 1px 5px #000;
+}
+
+.tape-x {
+    position: absolute;
+    background-color: var(--bg-tape);
+    width: 80px;
+    height: 10px;
+    margin-top: 33px;
+    border: solid 1px #000;
+}
+
+.tape-y {
+    position: absolute;
+    background-color: var(--bg-tape);
+    width: 10px;
+    height: 70px;
+    border: solid 1px #000;
+}

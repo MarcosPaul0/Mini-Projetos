@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'RanchersRegular';
+    src: url('../assets/fonts/Ranchers-Regular.ttf');
+}
+
+header {
+    font-family: 'RanchersRegular', sans-serif;
+    color: #fff;
+
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bg-header);
+    align-items: center;
+    justify-content: center;
+}
+
+header h1 span {
+    margin-left: 15px;
+}

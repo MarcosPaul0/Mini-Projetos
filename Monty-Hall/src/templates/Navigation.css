@@ -1,0 +1,28 @@
+nav.navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--bg-navigation);
+    color: #fff;
+}
+
+.navigation i {
+    margin-right: 10px;
+}
+
+.navigation a:first-child {
+    margin-top: 30px;
+}
+
+.navigation a {
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+}
+
+.navigation a:hover {
+    background-color: var(--bg-header);
+}
